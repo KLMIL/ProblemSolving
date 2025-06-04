@@ -21,6 +21,9 @@
   <ItemGroup>
     <None Include="_README.md" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BOJ1120.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>

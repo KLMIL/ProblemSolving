@@ -18,8 +18,10 @@
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="BaekJoon.txt">
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="BaekJoonTemplate.txt">
       <Filter>리소스 파일</Filter>
-    </ClCompile>
+    </Text>
   </ItemGroup>
 </Project>

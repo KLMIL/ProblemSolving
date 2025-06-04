@@ -1,0 +1,29 @@
+﻿/*
+	Site		: BaekJoon Online Judge - https://www.acmicpc.net/
+	Problem		:
+	URL			:
+	Date		: 2025-06-00 00:00 ~
+	Refactoring	:
+	Review
+		-
+*/
+
+#include <iostream>
+#include <algorithm>
+#include <vector>
+
+
+int main(void)
+{
+	// Fast I/O
+	std::ios_base::sync_with_stdio(false);
+	std::cin.tie(NULL);
+	// --------[Start]--------
+
+
+
+
+
+	// ---------[End]---------
+	return 0;
+}

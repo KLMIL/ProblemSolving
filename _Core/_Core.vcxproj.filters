@@ -13,10 +13,21 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\BaekJoon">
+      <UniqueIdentifier>{b72552e6-16c5-4384-98ec-b81d11d05aae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BaekJoon\BruteForce">
+      <UniqueIdentifier>{f77864aa-0552-4063-920c-799f3a5903a8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="_README.md">
       <Filter>리소스 파일</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BOJ1120.cpp">
+      <Filter>소스 파일\BaekJoon\BruteForce</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
