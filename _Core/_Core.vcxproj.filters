@@ -29,5 +29,8 @@
     <ClCompile Include="BOJ1120.cpp">
       <Filter>소스 파일\BaekJoon\BruteForce</Filter>
     </ClCompile>
+    <ClCompile Include="BOJ1026.cpp">
+      <Filter>소스 파일\BaekJoon\BruteForce</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
