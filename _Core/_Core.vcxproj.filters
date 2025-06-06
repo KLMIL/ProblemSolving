@@ -19,6 +19,9 @@
     <Filter Include="소스 파일\BaekJoon\BruteForce">
       <UniqueIdentifier>{f77864aa-0552-4063-920c-799f3a5903a8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\BaekJoon\Sort">
+      <UniqueIdentifier>{2f96d8d7-c6a9-4bee-8036-b83504b80def}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="_README.md">
@@ -30,7 +33,7 @@
       <Filter>소스 파일\BaekJoon\BruteForce</Filter>
     </ClCompile>
     <ClCompile Include="BOJ1026.cpp">
-      <Filter>소스 파일\BaekJoon\BruteForce</Filter>
+      <Filter>소스 파일\BaekJoon\Sort</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
