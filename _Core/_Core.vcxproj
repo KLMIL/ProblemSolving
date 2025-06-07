@@ -24,6 +24,8 @@
   <ItemGroup>
     <ClCompile Include="BOJ1026.cpp" />
     <ClCompile Include="BOJ1120.cpp" />
+    <ClCompile Include="BOJ17952.cpp" />
+    <ClCompile Include="BOJ2805.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
