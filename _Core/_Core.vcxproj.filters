@@ -47,5 +47,8 @@
     <ClCompile Include="BOJ2805.cpp">
       <Filter>소스 파일\BaekJoon\BinarySearch</Filter>
     </ClCompile>
+    <ClCompile Include="BOJ2512.cpp">
+      <Filter>소스 파일\BaekJoon\BinarySearch</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
