@@ -34,6 +34,9 @@
     <Filter Include="소스 파일\BaekJoon\DataStructure\Stack">
       <UniqueIdentifier>{4552fbcb-c785-4563-800b-0f732922ab2b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\BaekJoon\DataStructure\Queue">
+      <UniqueIdentifier>{5624b1d1-e963-44f2-b3de-d7c5a23f3f87}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="_README.md">
@@ -61,6 +64,12 @@
     </ClCompile>
     <ClCompile Include="BOJ4949.cpp">
       <Filter>소스 파일\BaekJoon\DataStructure\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ10845.cpp">
+      <Filter>소스 파일\BaekJoon\DataStructure\Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ11866.cpp">
+      <Filter>소스 파일\BaekJoon\DataStructure\Queue</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
