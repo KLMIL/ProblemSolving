@@ -28,6 +28,12 @@
     <Filter Include="소스 파일\BaekJoon\BinarySearch">
       <UniqueIdentifier>{49623aef-e2f4-4ca8-823c-3896536b1a3d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\BaekJoon\DataStructure">
+      <UniqueIdentifier>{0b54f2f0-8420-48ab-9607-8484a9a01486}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BaekJoon\DataStructure\Stack">
+      <UniqueIdentifier>{4552fbcb-c785-4563-800b-0f732922ab2b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="_README.md">
@@ -49,6 +55,12 @@
     </ClCompile>
     <ClCompile Include="BOJ2512.cpp">
       <Filter>소스 파일\BaekJoon\BinarySearch</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ10773.cpp">
+      <Filter>소스 파일\BaekJoon\DataStructure\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ4949.cpp">
+      <Filter>소스 파일\BaekJoon\DataStructure\Stack</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
