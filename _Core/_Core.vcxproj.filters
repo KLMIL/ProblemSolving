@@ -37,7 +37,7 @@
     <Filter Include="소스 파일\BaekJoon\DataStructure\Queue">
       <UniqueIdentifier>{5624b1d1-e963-44f2-b3de-d7c5a23f3f87}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\BaekJoon\Graph Theory">
+    <Filter Include="소스 파일\BaekJoon\GraphTheory">
       <UniqueIdentifier>{fc2ab7ed-7797-4299-89c1-776fcd8ed1c3}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -75,10 +75,13 @@
       <Filter>소스 파일\BaekJoon\DataStructure\Queue</Filter>
     </ClCompile>
     <ClCompile Include="BOJ1697.cpp">
-      <Filter>소스 파일\BaekJoon\Graph Theory</Filter>
+      <Filter>소스 파일\BaekJoon\GraphTheory</Filter>
     </ClCompile>
     <ClCompile Include="BOJ11724.cpp">
-      <Filter>소스 파일\BaekJoon\Graph Theory</Filter>
+      <Filter>소스 파일\BaekJoon\GraphTheory</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ11725.cpp">
+      <Filter>소스 파일\BaekJoon\GraphTheory</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
