@@ -34,6 +34,7 @@
     <ClCompile Include="BOJ2512.cpp" />
     <ClCompile Include="BOJ2805.cpp" />
     <ClCompile Include="BOJ4949.cpp" />
+    <ClCompile Include="BOJ4963.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
