@@ -25,10 +25,12 @@
     <ClCompile Include="BOJ10773.cpp" />
     <ClCompile Include="BOJ1026.cpp" />
     <ClCompile Include="BOJ10845.cpp" />
+    <ClCompile Include="BOJ11047.cpp" />
     <ClCompile Include="BOJ1120.cpp" />
     <ClCompile Include="BOJ11724.cpp" />
     <ClCompile Include="BOJ11725.cpp" />
     <ClCompile Include="BOJ11866.cpp" />
+    <ClCompile Include="BOJ1541.cpp" />
     <ClCompile Include="BOJ1697.cpp" />
     <ClCompile Include="BOJ17952.cpp" />
     <ClCompile Include="BOJ2512.cpp" />

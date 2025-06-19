@@ -46,6 +46,9 @@
     <Filter Include="소스 파일\BaekJoon\Graph\GraphTraversal">
       <UniqueIdentifier>{86a3db37-811a-43f3-a765-6c03b92262dc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\BaekJoon\Greedy">
+      <UniqueIdentifier>{40431693-eca2-4abf-9f31-deaed93a30a0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="_README.md">
@@ -94,6 +97,12 @@
     </ClCompile>
     <ClCompile Include="BOJ7562.cpp">
       <Filter>소스 파일\BaekJoon\Graph\GraphTraversal</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ11047.cpp">
+      <Filter>소스 파일\BaekJoon\Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1541.cpp">
+      <Filter>소스 파일\BaekJoon\Greedy</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
