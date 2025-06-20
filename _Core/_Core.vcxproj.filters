@@ -49,6 +49,9 @@
     <Filter Include="소스 파일\BaekJoon\Greedy">
       <UniqueIdentifier>{40431693-eca2-4abf-9f31-deaed93a30a0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\BaekJoon\Implementation">
+      <UniqueIdentifier>{164f8b87-4969-4918-82d9-1303e3679c8a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="_README.md">
@@ -103,6 +106,9 @@
     </ClCompile>
     <ClCompile Include="BOJ1541.cpp">
       <Filter>소스 파일\BaekJoon\Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1158.cpp">
+      <Filter>소스 파일\BaekJoon\Implementation</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
