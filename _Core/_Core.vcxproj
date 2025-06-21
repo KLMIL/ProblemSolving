@@ -28,6 +28,7 @@
     <ClCompile Include="BOJ11047.cpp" />
     <ClCompile Include="BOJ1120.cpp" />
     <ClCompile Include="BOJ1158.cpp" />
+    <ClCompile Include="BOJ11660.cpp" />
     <ClCompile Include="BOJ11724.cpp" />
     <ClCompile Include="BOJ11725.cpp" />
     <ClCompile Include="BOJ11866.cpp" />

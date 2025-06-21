@@ -52,6 +52,9 @@
     <Filter Include="소스 파일\BaekJoon\Implementation">
       <UniqueIdentifier>{164f8b87-4969-4918-82d9-1303e3679c8a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\BaekJoon\PrefixSum">
+      <UniqueIdentifier>{e2a01889-1cfa-427f-b2c2-b5cf6ee15ad4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="_README.md">
@@ -109,6 +112,9 @@
     </ClCompile>
     <ClCompile Include="BOJ1158.cpp">
       <Filter>소스 파일\BaekJoon\Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ11660.cpp">
+      <Filter>소스 파일\BaekJoon\PrefixSum</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
