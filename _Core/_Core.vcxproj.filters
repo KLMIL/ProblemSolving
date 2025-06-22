@@ -116,5 +116,8 @@
     <ClCompile Include="BOJ11660.cpp">
       <Filter>소스 파일\BaekJoon\PrefixSum</Filter>
     </ClCompile>
+    <ClCompile Include="BOJ2217.cpp">
+      <Filter>소스 파일\BaekJoon\Sort</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
