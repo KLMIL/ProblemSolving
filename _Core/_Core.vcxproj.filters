@@ -122,5 +122,8 @@
     <ClCompile Include="BOJ2167.cpp">
       <Filter>소스 파일\BaekJoon\Implementation</Filter>
     </ClCompile>
+    <ClCompile Include="BOJ12100.cpp">
+      <Filter>소스 파일\BaekJoon\BruteForce</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
