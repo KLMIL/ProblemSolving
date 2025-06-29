@@ -1,0 +1,33 @@
+/*
+	Site		: LeetCode - https://leetcode.com/problemset/
+	Problem		: 
+	Date		: 2025-06-00 00:00 ~
+	Refactoring	:
+	Review
+		-
+*/
+
+#include <iostream>
+#include <algorithm>
+#include <vector>
+
+
+// --------[Start]--------
+
+class Solution {
+public:
+	// Implement the given problem
+};
+
+// ---------[End]---------
+
+
+int main(void)
+{
+	Solution s;
+
+	// Run test cases for the implemented solution
+
+
+	return 0;
+}
