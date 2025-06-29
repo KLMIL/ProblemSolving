@@ -22,6 +22,7 @@
     <None Include="_README.md" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="1498.cpp" />
     <ClCompile Include="BOJ10773.cpp" />
     <ClCompile Include="BOJ1026.cpp" />
     <ClCompile Include="BOJ10845.cpp" />

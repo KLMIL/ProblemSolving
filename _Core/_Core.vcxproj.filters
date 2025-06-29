@@ -55,6 +55,9 @@
     <Filter Include="소스 파일\BaekJoon\PrefixSum">
       <UniqueIdentifier>{e2a01889-1cfa-427f-b2c2-b5cf6ee15ad4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\LeetCode">
+      <UniqueIdentifier>{b2829fd5-c083-4596-99d8-910ad88c5939}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="_README.md">
@@ -130,6 +133,9 @@
     </ClCompile>
     <ClCompile Include="BOJ10866.cpp">
       <Filter>소스 파일\BaekJoon\Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="1498.cpp">
+      <Filter>소스 파일\LeetCode</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
