@@ -23,6 +23,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1498.cpp" />
+    <ClCompile Include="BOJ1003.cpp" />
     <ClCompile Include="BOJ10773.cpp" />
     <ClCompile Include="BOJ1026.cpp" />
     <ClCompile Include="BOJ10845.cpp" />
@@ -53,7 +54,7 @@
     <ProjectGuid>{1d5a1ce4-87c8-4659-b2df-f4723774b1f4}</ProjectGuid>
     <RootNamespace>Core</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>_Save</ProjectName>
+    <ProjectName>Save</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
