@@ -58,6 +58,9 @@
     <Filter Include="소스 파일\LeetCode">
       <UniqueIdentifier>{b2829fd5-c083-4596-99d8-910ad88c5939}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\BaekJoon\DynamicProgramming">
+      <UniqueIdentifier>{b946e4ac-ca97-48e1-8261-55c03b6bf9be}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="_README.md">
@@ -136,6 +139,9 @@
     </ClCompile>
     <ClCompile Include="1498.cpp">
       <Filter>소스 파일\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1003.cpp">
+      <Filter>소스 파일\BaekJoon\DynamicProgramming</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

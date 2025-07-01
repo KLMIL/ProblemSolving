@@ -3,7 +3,7 @@
     Problem		: BOJ 1003
     URL			: https://www.acmicpc.net/problem/1003
     Date		: 2025-06-30 09:17 ~ 09:37(TD) ~ 09:48(BU)
-    Refactoring	:
+    Refactoring	: 2025-07-01 10:21(BU) ~ 10:21(TD)
     Review
         - TD는 시간초과가 나왔다.
         - BU는 통과.
@@ -15,52 +15,47 @@
 #include <vector>
 
 
-int FibonacciBU(int N, std::vector<int>& cntBU) {
-    if (N == 0) {
-        cntBU[0] = 1;
-        cntBU[1] = 0;
-        return 0;
+
+// BU는 작은 문제부터 차례로 해결해나가는 방법
+std::vector<int> BU_Fibonacci(int N) {
+    // 예외 입력에 대한 처리
+    if (N == 0) return { 1, 0 };
+    if (N == 1) return { 0, 1 };
+
+    std::vector<int> prev = { 1, 0 };
+    std::vector<int> curr = { 0, 1 };
+
+    for (int i = 2; i <= N; i++) {
+        std::vector<int> next = { prev[0] + curr[0], prev[1] + curr[1] };
+        prev = curr;
+        curr = next;
     }
 
-    std::vector<int> preprev = { 0, 0, 0 };
-    std::vector<int> prev = { 0, 1, 0 };
-    std::vector<int> curr = { 1, 0, 1 };
-
-    for (int i = 1; i < N; i++) {
-        preprev[0] = prev[0];
-        preprev[1] = prev[1];
-        preprev[2] = prev[2];
-
-        prev[0] = curr[0];
-        prev[1] = curr[1];
-        prev[2] = curr[2];
-
-        curr[0] = preprev[0] + prev[0];
-        curr[1] = preprev[1] + prev[1];
-        curr[2] = preprev[2] + prev[2];
-    }
-    cntBU[0] = curr[1];
-    cntBU[1] = curr[2];
-
-    return curr[0];
+    return curr;
 }
 
 
-int FibonacciTD(std::vector<int>& fibo, int N, std::vector<int>& cntTD) {
-    if (N == 0) {
-        cntTD[0]++;
-        return 0;
-    }
-    if (N == 1) {
-        cntTD[1]++;
-        return 1;
-    }
+std::vector<int> TD_Fibonacci(int N) {
+    if (N == 0) return { 1, 0 };
+    if (N == 1) return { 0, 1 };
 
-    if (fibo[N - 2] == 0) FibonacciTD(fibo, N - 2, cntTD);
-    if (fibo[N - 1] == 0) FibonacciTD(fibo, N - 1, cntTD);
+    std::vector<std::vector<int>> memo(N + 1, std::vector<int>(3)); // { Found, 0, 1 }
+    memo[0] = { 1, 1, 0 };
+    memo[1] = { 1, 0, 1 };
 
-    fibo[N] = fibo[N - 2] + fibo[N - 1];
-    return fibo[N - 2] + fibo[N - 1];
+    auto rec = [&memo](auto&& self, int curr) -> std::vector<int> {
+        if (memo[curr][0] != 0) return memo[curr];
+
+        std::vector<int> p1 = self(self, curr - 1);
+        std::vector<int> p2 = self(self, curr - 2);
+
+        memo[curr] = { 1, p1[1] + p2[1], p1[2] + p2[2] };
+        return memo[curr];
+        };
+
+    std::vector<int> result = rec(rec, N);
+
+    return { result[1], result[2] };
 }
 
 
@@ -75,23 +70,18 @@ int main(void)
     int T;
     std::cin >> T;
 
-    bool type = false; // BottomUp, TopDown을 결정하는 변수
+    bool type = false; // true = BU / false = TD
     for (int tc = 0; tc < T; tc++) {
         int N;
         std::cin >> N;
 
         if (type) { // Button-Up Solution
-            std::vector<int> cntBU(2, 0);
-            FibonacciBU(N, cntBU);
-
-            std::cout << cntBU[0] << " " << cntBU[1] << "\n";
+            std::vector<int> resBU = BU_Fibonacci(N);
+            std::cout << resBU[0] << " " << resBU[1] << "\n";
         }
         else { // Top-Down Solution
-            std::vector<int> fiboTD(N + 1, 0); // 1-based
-            std::vector<int> cntTD(2, 0);
-            FibonacciTD(fiboTD, N, cntTD);
-
-            std::cout << cntTD[0] << " " << cntTD[1] << "\n";
+            std::vector<int> resTD = TD_Fibonacci(N);
+            std::cout << resTD[0] << " " << resTD[1] << "\n";
         }
     }
 
@@ -100,3 +90,7 @@ int main(void)
     // ---------[End]---------
     return 0;
 }
+
+/* Think
+* - 확장성 있는 함수 구조를 위해서, 기본 Fibonacci를 구현한 뒤에, 필요한 부분을 추가하는 식으로 만들어보자.
+*/
