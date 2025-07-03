@@ -146,5 +146,8 @@
     <ClCompile Include="BOJ9095.cpp">
       <Filter>소스 파일\BaekJoon\DynamicProgramming</Filter>
     </ClCompile>
+    <ClCompile Include="BOJ15988.cpp">
+      <Filter>소스 파일\BaekJoon\DynamicProgramming</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
